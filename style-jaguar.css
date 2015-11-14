@@ -1,0 +1,51 @@
+/*css landing Jaguar*/
+.back {
+
+  background-image:url(https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.MainContainer {
+  background-color:rgba(0, 0, 0, 0.6);
+  border-radius:10px 10px 10px 10px; 
+  color:white;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  height:100%;
+  margin-bottom:500px;/**En este punto soy conciente que se puede hacer un solo margin y paddings pero por ser específico 
+  lo dejo así. Lo mismo para el resto de clases**/
+  margin-left: 80px;
+  margin-top:80px;
+  max-width: 600px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px; 
+  position:relative;
+
+}
+
+button {
+display:inline-block;
+cursor:pointer;
+background-color:#DB3030;
+padding: 5px 25px 5px 25px;
+margin-bottom: 20px;
+border: 1px #DB3030; 
+position:relative;
+}
+
+button a{
+  color:white; 
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  font-weight:bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 678px) {
+    .MainContainer {
+        margin-top:30px;
+        margin-left: 15px ;
+    }
